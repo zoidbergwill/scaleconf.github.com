@@ -981,18 +981,18 @@ william_stewart:
     country: South Africa
     year: 2017
     bio: >
-      Site Reliability Team Lead at Superbalist.com
+      Site Reliability Team Lead at Superbalist.com.
     title: >
       A Journey into Kubernetes, and how it helps us
     abstract: >
-      Over the last 14 months we've got rid of more than 20 servers and made a
-      lot of progress consolidating how our projects are deployed. We're running
-      almost everything in Kubernetes in production.
+      Kubernetes is a container cluster manager written by Google, released in
+      2014. We've had a pretty successful time moving almost everything into Kubernetes
+      over the past 18 months, and have a bunch of work ahead of us. However we've still
+      bumped our heads a couple times.
       </p><p>
-      We've got a bunch of war stories about signal propagation, Docker falling
-      over, all nodes becoming unschedulable for services, running stateful
-      stuff like Kafka and Elastic Search in Kubernetes, and with moving local
-      development from Vagrant and Virtualbox to Minikube on xhyve and KVM.
+      In this talk, I'll give a high level summary of Kubernetes, and then speak a bit
+      about our journey. Hopefully this will help avoid you making some of the same
+      mistakes we did, and everyone will learn something.
     video: 3PvYGbNKdMQ
 
 matthew_clark:
